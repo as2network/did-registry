@@ -1,7 +1,7 @@
 import '@typechain/hardhat';
 import 'dotenv/config';
 import { HardhatUserConfig } from 'hardhat/types';
-import "@nomiclabs/hardhat-truffle5"
+import '@nomiclabs/hardhat-truffle5';
 
 const HARDHAT_ENABLE_SENTRY = false;
 const mnemonic = 'test test test test test test test test test test test junk';
@@ -21,6 +21,6 @@ const config: HardhatUserConfig = {
         },
       },
     },
- }
+  },
 };
 export default config;

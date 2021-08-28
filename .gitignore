@@ -8,5 +8,5 @@ coverage.json
 *.log
 build
 .nyc_output
-test/
 .cache
+cache/

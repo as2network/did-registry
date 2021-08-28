@@ -12,8 +12,6 @@
     "downlevelIteration": true,
     "target": "es2017"
   },
- "exclude": ["build", "typechain", "node_modules"],
-  "include": [
-    "src/**/*"
-  ]
+  "exclude": ["build", "typechain", "node_modules"],
+  "include": ["src/**/*"]
 }

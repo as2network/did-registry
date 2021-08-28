@@ -1,6 +1,6 @@
-const Migrations = artifacts.require("Migrations");
-const DIDRegistry = artifacts.require("DIDRegistry");
-const DIDRegistryRecoverable = artifacts.require("DIDRegistryRecoverable");
+const Migrations = artifacts.require('Migrations');
+const DIDRegistry = artifacts.require('DIDRegistry');
+const DIDRegistryRecoverable = artifacts.require('DIDRegistryRecoverable');
 
 module.exports = function (deployer) {
   deployer.deploy(Migrations);
