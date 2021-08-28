@@ -1,0 +1,12 @@
+.DS_Store
+*.tmp
+node_modules
+seed
+build/
+dist/
+coverage.json
+*.log
+build
+.nyc_output
+test/
+.cache

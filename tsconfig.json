@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "target": "es2017"
+  },
+ "exclude": ["build", "typechain", "node_modules"],
+  "include": [
+    "src/**/*"
+  ]
+}
