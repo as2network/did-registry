@@ -1,7 +1,7 @@
 {
-  "name": "solidity-hardhat-template",
+  "name": "@as2network/did-registry",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "typescript hardhat base with conformant linting",
   "files": [
     "/contracts/**/*.sol",
@@ -9,8 +9,8 @@
     "!/contracts/mocks/**/*"
   ],
   "scripts": {
-    "build": "npx tsc -b",
-    "compile": "npx hardhat compile",
+    "tsc": "npx tsc -b",
+    "build": "npx hardhat compile",
     "coverage": "npx hardhat coverage",
     "test": "npx hardhat test",
     "lint": "npx gts lint",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sambacha/solidity-hardhat-template.git"
+    "url": "git+https://github.com/as2network/did-registry.git"
   },
   "keywords": [
     "solidity",
@@ -31,9 +31,9 @@
   "author": "SEE CONTRIBUTORS",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/sambacha/solidity-hardhat-template/issues"
+    "url": "https://github.com/as2network/did-registry/issues"
   },
-  "homepage": "https://github.com/sambacha/solidity-hardhat-template#readme",
+  "homepage": "https://github.com/as2network/did-registry#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "2.0.2",
     "@nomiclabs/hardhat-truffle5": "^2.0.0",
