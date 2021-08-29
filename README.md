@@ -368,7 +368,7 @@ Example `as2` DIDs:
     {
       "id": "did:as2:main:0xadf1702b76419f428014d1386af487b2d8145f83#mailbox",
       "type": "DIDComm",
-      "serviceEndpoint": "https://mailbox.Annex.net"
+      "serviceEndpoint": "https://dogma.as2.network"
     }
   ]
 }
